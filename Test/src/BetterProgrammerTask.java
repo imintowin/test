@@ -43,6 +43,10 @@ public class BetterProgrammerTask {
         return choose(total-1,choose-1)+choose(total-1,choose);
     }
     
+    public String newFeature(){
+    	return "new feature";
+    }
+    
     public static void main(String []args){
     	System.out.println(getProbability(6,4));
     	
