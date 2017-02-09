@@ -4,7 +4,7 @@ public class BetterProgrammerTask2 {
     public static int getSumOfTwoClosestToZeroElements(int[] a) {
     	int closer = a[0];
     	int second = a[1];
-    	int temp;
+    	int temp=0;
     	if(Math.abs(closer) > Math.abs(second)){
     		temp = second;
     		second = closer;
