@@ -44,8 +44,7 @@ public class BetterProgrammerTask {
     }
     
     public static void main(String []args){
-    	//System.out.println(Math.pow(5/6d, 1));
-    	System.out.println(getProbability(6,3));
+    	System.out.println(getProbability(6,4));
     	
     }
 }
